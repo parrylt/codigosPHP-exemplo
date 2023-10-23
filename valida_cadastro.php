@@ -13,7 +13,7 @@
 	
 	
 	$res = mysqli_query($con,"INSERT INTO tb_aluno(id, nome, email) VALUES($codigo,'$nome','$email')"); 
-	echo ("Cadastro realizada com sucesso!");
+	echo ("Cadastro realizado com sucesso!");
 	/*Executa o comando SQL, no caso para pegar todos os usuarios do sistema e retorna o valor da consulta em uma variavel ($res)  */
     
 	
